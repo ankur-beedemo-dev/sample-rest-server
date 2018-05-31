@@ -11,7 +11,7 @@ pipeline {
       stage('Build') {
          steps {
             container('maven8') {
-               sh 'mvn clean package'
+               sh 'mvn clean package
             }
          }
       }
